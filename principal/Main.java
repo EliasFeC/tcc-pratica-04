@@ -20,7 +20,11 @@ public class Main {
         System.out.println("Elementos do conjunto B: ");
         conjunto.imprimirElementos(B, cardinalidadeB);
 
-
+        conjunto.uniao(A, B);
+        conjunto.intersecao(A, B);
+        conjunto.diferenca(A, B);
+        conjunto.produtoCartesiano(A, B);
+        conjunto.conjuntoDasPartes(A);
 
     }
 }
